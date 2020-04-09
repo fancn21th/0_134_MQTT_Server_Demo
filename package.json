@@ -1,0 +1,23 @@
+{
+  "name": "0_134_MQTT_Server_Demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancn21th/0_134_MQTT_Server_Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fancn21th/0_134_MQTT_Server_Demo/issues"
+  },
+  "homepage": "https://github.com/fancn21th/0_134_MQTT_Server_Demo#readme",
+  "dependencies": {
+    "mosca": "^2.8.3"
+  }
+}
