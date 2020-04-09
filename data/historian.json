@@ -1,0 +1,10 @@
+{
+  "track": [
+    [10, 2, 1533022417],
+    [11, 22, 1533195233]
+  ],
+  "cam": [
+    "rtsp://admin:admin123@192.168.1.13:554/cam/playback?channel=12&starttime=2018_12_03_18_24_03&endtime=2018_12_03_18_24_21",
+    "rtsp://admin:admin123@192.168.1.12:554/cam/playback?channel=22&starttime=2018_12_03_18_25_03&endtime=2018_12_03_18_26_21"
+  ]
+}
