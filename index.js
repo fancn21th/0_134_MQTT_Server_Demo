@@ -10,10 +10,14 @@ mqttServ.on("clientConnected", function(client) {
   console.log("Client Connected:", client.id);
 });
 
-// fired when a message is published
+// fired when a message is published from client
 mqttServ.on("published", function(packet, client) {
   console.log("Published", packet);
-  console.log("Client", client);
+});
+
+// fired when a client disconnects
+mqttServ.on("clientDisconnected", function(client) {
+  console.log("Client Disconnected:", client.id);
 });
 
 httpServ.listen(3000);
